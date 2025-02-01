@@ -13,4 +13,4 @@
 ## Azureへのデプロイ
 - az login 
 - az account set --subscription "subscription_id"
-- func azure functionapp publish hotel-search-test-fnc --publish-local-settings -i --build remote
+- func azure functionapp publish {functions_name} --publish-local-settings -i --build remote
